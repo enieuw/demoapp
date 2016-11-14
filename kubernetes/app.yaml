@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: demoapp-container
-          image: registry.default.svc.appfactory.local:5000/demoapp 
+          image: registry.platform.svc.appfactory.local:5000/demoapp 
           imagePullPolicy: Always
           ports:
             - containerPort: 80
